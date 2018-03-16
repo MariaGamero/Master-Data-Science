@@ -5,4 +5,4 @@ Este es mi primer repositorio
 Puedo escribir conmarkdown
 
 ]]
-Primer dia de Master
+Perimer dia de Master
