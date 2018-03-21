@@ -1,0 +1,582 @@
+     1	ls
+     2	mkdir Repos
+     3	cd Repos
+     4	history
+     5	cat ../.history
+     6	git clone https://github.com/wireservice/csvkit.git
+     7	cd csvkit
+     8	ls
+     9	git log
+    10	cd ..
+    11	cd
+    12	psql -l
+    13	psql
+    14	psql postgres
+    15	pyspark
+    16	R
+    17	rstudio
+    18	sudo chmod -R a+rwx /media/sf_vb_shared
+    19	sudo cp -r /media/sf_vb_shared/Data .
+    20	ls -hl
+    21	sudo chown -R dsc:dsc Data
+    22	du -hs Data
+    23	ls Data
+    24	find DA
+    25	find Data
+    26	df -h
+    27	blueman--ma
+    28	blueman-manager
+    29	gsettings get org.blueman.transfer shared-path\
+    30	\
+    31	
+    32	gsettings get org.blueman\
+    33	\
+    34	
+    35	blueman-services
+    36	cd /usr/local/spark
+    37	cd ..
+    38	ls
+    39	ls /home/dsc/Downloads
+    40	ls
+    41	ll spark
+    42	cd
+    43	cd Downloads
+    44	ls
+    45	ll
+    46	tar zxvf spark-2.2.0-bin-hadoop2.7.tgz
+    47	ls
+    48	rm spark-2.2.0-bin-hadoop2.7.tgz
+    49	sudo mv spark-2.2.0-bin-hadoop2.7 /usr/local
+    50	cd /usr/local
+    51	ls
+    52	rm -rd spark-2.3.0-bin-hadoop2.7
+    53	sudo rm -rf spark-2.3.0-bin-hadoop2.7
+    54	sudo rm spark
+    55	sudo ln -s spark-2.2.0-bin-hadoop2.7 spark
+    56	l
+    57	cd
+    58	pyspark
+    59	rm Untitled.ipynb
+    60	ls
+    61	find data
+    62	find Data
+    63	cd Repos
+    64	ls
+    65	ll
+    66	cd csvkit
+    67	ls
+    68	cd..
+    69	cd ..
+    70	pwd
+    71	git
+    72	git clone
+    73	git clone git@github.com:MariaGamero/Master-Data-Science.git
+    74	git clone https://github.com/MariaGamero/Master-Data-Science.git
+    75	cd 
+    76	ll
+    77	cd Repos
+    78	ll
+    79	cd Master-Data-Science
+    80	ll
+    81	gedit README.md
+    82	git status
+    83	cd
+    84	ls
+    85	ls.a
+    86	ls .a
+    87	ls -a
+    88	gif config user.
+    89	git config user
+    90	git config
+    91	git config --global user.name 
+    92	git config
+    93	git config user.name
+    94	git config --global user.name
+    95	git config --global user.name "Maria Gamero"
+    96	git config --global user.email bambass36@gmail.com
+    97	cd repos
+    98	cd Repos/
+    99	cd Repos
+   100	cd repos
+   101	ll
+   102	cd Master-Data-Science
+   103	git status
+   104	cat README.md
+   105	git status
+   106	git add README.md
+   107	git status
+   108	git reset HEAD
+   109	git add README.md
+   110	git status
+   111	git commit
+   112	git status
+   113	git push
+   114	git status
+   115	git pull
+   116	git log
+   117	git status
+   118	gedit
+   119	getit README.md
+   120	gedit README.md
+   121	git add README.md
+   122	git commit
+   123	git push
+   124	git status
+   125	git log
+   126	git revert 57a8a55 
+   127	git revert --abort
+   128	git resert README.md
+   129	git revert --abort
+   130	git revert ed9c9b3
+   131	git git log
+   132	git log
+   133	gedit README.md
+   134	git commit
+   135	git push
+   136	git log
+   137	cd ..
+   138	Repos
+   139	cd Repos
+   140	cd Master-Data-Science
+   141	cd -
+   142	cd Master-Data-Science
+   143	ls -a
+   144	whoami
+   145	echo welcome to master
+   146	cat /etc/os-release
+   147	cat-n /etc/os.release
+   148	cd Data/shell
+   149	cat Text_example.txt
+   150	cd
+   151	cat Data/shell/Text_example.txt
+   152	pwd
+   153	cat /home/dsc/Data/shell/Text_example.txt
+   154	cd - 
+   155	cd..
+   156	de ..
+   157	cd ..
+   158	cd Desktop cd -
+   159	cd Desktop
+   160	cd -
+   161	cd ..
+   162	cd -
+   163	cd .ssh
+   164	ll
+   165	cd
+   166	q
+   167	pwd
+   168	echo texto
+   169	echo $PWD
+   170	echo ${PWD}text
+   171	echo \${PWD}
+   172	ls
+   173	cd shell
+   174	l
+   175	ls
+   176	cd Data
+   177	cd shell
+   178	ls
+   179	ls./
+   180	../
+   181	ls -s
+   182	ls -s1
+   183	l-s-1
+   184	ls-l
+   185	 ls -l
+   186	 ls - l
+   187	type ll
+   188	type ls
+   189	type cd
+   190	gedit .zshrc
+   191	cd ..
+   192	ls -a
+   193	ls -la
+   194	touch empty_file
+   195	ls - l
+   196	ls - l empty_file
+   197	touch empty_file
+   198	ls -l empty_file
+   199	chmod u+x empty_file
+   200	ls - l empty_file
+   201	chmod u-x,g+w,p+w empty_file
+   202	ls - l empty_file
+   203	chmod 777 empty_file
+   204	ls -lSa
+   205	ls - lSar
+   206	ls - lSa
+   207	ls - lta
+   208	cat .history
+   209	history
+   210	history -3
+   211	echo $HISTFILE
+   212	mkdir
+   213	cd ..
+   214	mkdir master_dir
+   215	cd ..
+   216	pwd
+   217	cd /
+   218	pwd
+   219	cd
+   220	mkdir master_dir
+   221	cd master_dir
+   222	mkdir one/two/thre
+   223	mkdir -p one/two/three
+   224	ls one
+   225	ls one/two
+   226	touch fito.txt
+   227	cp fito.txt fito_copy.txt
+   228	ll
+   229	cp fito.txt one/fito_copy.txt
+   230	cp fito.txt two/
+   231	ll
+   232	mkdir -p two/three
+   233	ll
+   234	mv two one
+   235	mv fito.txt fito_new
+   236	move one/two one
+   237	ll
+   238	rmfito_copy.txt fito_new
+   239	rm -r two
+   240	cd ..
+   241	pwd
+   242	mkdir first_dir
+   243	cd first_dir
+   244	touch text_file.txt
+   245	chmode g+x,o+w text_file.txt
+   246	chmod g+x,o+w text_file.txt
+   247	mkdir sub1
+   248	mkdir sub2
+   249	mkdir sub3
+   250	mv sub3 text_file
+   251	ls
+   252	cp text_file.txt ./sub1/text_file5.txt
+   253	ls
+   254	mv text_file ./sub2/text_file.txt.2
+   255	cp sub1 ./text_file
+   256	cd -r sub1 ./text_file
+   257	cp -r sub1 ./text_file
+   258	mv first_dir/sub2/text_file.txt.2 ./first_dir/sub2/text.file.txt.backup
+   259	ls
+   260	cd sub2
+   261	ll
+   262	ls
+   263	cd ..
+   264	mv first_dir/text_file/text_file.txt.2 ./first_dir/sub2/text.file.txt.backup
+   265	cd
+   266	man
+   267	cp
+   268	man cp
+   269	--help
+   270	cat --help
+   271	cd data
+   272	cd Data
+   273	cd shell
+   274	cat shell
+   275	less
+   276	less Finn.txt
+   277	less -N Finn.txt
+   278	liss -n Finn.txt
+   279	less - n Finn.txt
+   280	less Finn.txt
+   281	less -N Finn.txt
+   282	cd
+   283	cd Data
+   284	cd opentraveldata
+   285	less -N optd_aircraft.csv
+   286	cd ..
+   287	cd shell
+   288	cd Data
+   289	cd shell
+   290	which tree
+   291	which ls
+   292	whereis ls
+   293	which python
+   294	whereis python
+   295	sudo which python
+   296	which python
+   297	this is my commnd line
+   298	this iuwhe my commond lne
+   299	cd Data
+   300	cd shell
+   301	t 
+   302	l
+   303	which Python
+   304	which wuhe  iuweriuer  wehrehri
+   305	blueman--ma
+   306	man cp
+   307	cd ..
+   308	cd shell
+   309	cd ..
+   310	cd shell
+   311	echo "Hello" > hello-world
+   312	ll hello-world
+   313	cat hello-world
+   314	echo "Hello again" >> hello-world
+   315	cat hello-world
+   316	wc hello-world
+   317	wc < hello-world
+   318	cat hello-world
+   319	echo "My home dir is ${HOME}"
+   320	My home dir is {HOME}
+   321	date
+   322	echo "date"
+   323	'echo date '
+   324	echo 'date'
+   325	eco "$(date)"
+   326	echo "$(date)"
+   327	head Finn.txt
+   328	tail Finn.txt
+   329	head -n 3 Finn.txt
+   330	cat -N 3 Finn.txt
+   331	head -n -3
+   332	cat -n ./Text_example.txt | head -1
+   333	cat -n ./Text_example.txt | tail n-5
+   334	cat -n ./Text_example.txt | tail n- +5 
+   335	ll - S
+   336	ll -S
+   337	cd home
+   338	cd Data
+   339	cd us_dot/otp
+   340	ll -S
+   341	cd Data/us_dot/otp
+   342	ll -S
+   343	cat -n ./Text_example.txt
+   344	cat -n ../../shell/Text_example.txt
+   345	cat -n ../../shell/Text_example.txt | head -3
+   346	ll -S | head -3
+   347	ll -S | head n -4
+   348	ll -S | head -4
+   349	ll -S | wc 
+   350	ll -S | tail n -2
+   351	ll - S | head -4 | tail -2
+   352	ll - S | head -4
+   353	ll - S | head - 4 
+   354	ll -S
+   355	ll - S | head n -4
+   356	ll - S | head -4
+   357	ll -S | head -4
+   358	ll - S | tail 4
+   359	ls - S
+   360	ls -S
+   361	ls -S | head -3
+   362	ls -S | head -n 4
+   363	ls -S | head -3
+   364	ls -s | head -n 4 | tail -n -3
+   365	ls -s | head -n 4 | tail -n -3 > three_largest_file.txt
+   366	history
+   367	cat .history
+   368	cd ..
+   369	cd shell
+   370	cd
+   371	find . -name "text.file*"
+   372	find -name "text file"
+   373	find . -name "text_file*"
+   374	Find . /Data - size + 10M
+   375	Find . /Data -size +10M
+   376	find . Data/ -size +10M
+   377	find . Data/ -size +10M | cat
+   378	find . Data/ -size +10M | cw
+   379	find . Data/ -size +10M | wc
+   380	find . Data/ -size +10M -exec ls -l {} \;
+   381	find . /Data/us_dot -size +10M
+   382	echo ${date}
+   383	echo / ${date}
+   384	echo "${date}"
+   385	find ./Data - size +10M -exec ls -l \;
+   386	find ./Data - size +10M | wc
+   387	find ./Data -size +10M
+   388	find ./Data -size +10M | wc
+   389	find ./Data -size +10M -exec echo YES \;
+   390	find ./Data -size +10M -exec echo YES \; -exec echo NOOOOOOO \;
+   391	find ./Data -size +10M -exec ls -l {} | wc \;
+   392	find ./Data -size +10M -exec sh -c "ls -l {} | wc" \;
+   393	cd 
+   394	find. -mmin -60
+   395	find -mmind -60
+   396	find . -mmind -60
+   397	find -mmin -60 -exec ls -l {} \;
+   398	find . -empty 
+   399	find . -empty | wc
+   400	find . -empty not perm777
+   401	find . -empty --helpperm777
+   402	find . -empty -
+   403	find . -empty --helpperm p
+   404	find -mmin -60
+   405	find -type f -empty ! perm 777 | wc
+   406	find -type f -empty ! -perm 777 | wc
+   407	pwd
+   408	cd ~
+   409	pwd
+   410	cd Data
+   411	cd shell
+   412	cd ..
+   413	pwd
+   414	echo "Hola"
+   415	echo "Hola\
+   416	"
+   417	echo "Hola\
+   418	
+   419	echo $PWD
+   420	echo $date
+   421	echo $DATE
+   422	echo $Date
+   423	echo $NOW
+   424	echo \$PWD
+   425	echo \$DATE
+   426	ls
+   427	ls -al
+   428	ls -l
+   429	ls -a
+   430	ls -al
+   431	ls
+   432	ls -1
+   433	ls -2
+   434	ls -s
+   435	ls -1 -s
+   436	ls -1s
+   437	ls -s1
+   438	ls -lH
+   439	ls -l
+   440	ls -l .
+   441	ls -l README.md
+   442	ls -l .
+   443	ls -l ..
+   444	ls -S
+   445	ls -s
+   446	ls -lSr
+   447	ls -lS
+   448	ls -lt
+   449	ls -ltr
+   450	ls -ltX
+   451	pwd
+   452	cd shell
+   453	pwd
+   454	ls 
+   455	mkdir one
+   456	ls
+   457	mkdir one/two/three
+   458	mkdir -p one/two/three
+   459	ls
+   460	ls one
+   461	ls one/two
+   462	mkdir two three
+   463	ls
+   464	ls one
+   465	ls one/ywo
+   466	ls one/two
+   467	ls one/two/three
+   468	touch file
+   469	ls
+   470	ls -l
+   471	touch one/file
+   472	ls one
+   473	touch one/file2
+   474	touch two/file3
+   475	touch two/file4
+   476	ls l one
+   477	ls -l one
+   478	ls -l two
+   479	cp -r three one
+   480	ls -l one
+   481	ls 
+   482	ls three
+   483	cd one
+   484	ls
+   485	rmdir -r three
+   486	rmdir three
+   487	ls
+   488	cd ..
+   489	ls
+   490	touch three/file5
+   491	touch three/file6
+   492	ls
+   493	cp -r three one
+   494	ls -l one/three
+   495	rmdir one/three
+   496	rmdir one/three -r
+   497	rmdir one/three/*.*
+   498	rm one/three/*
+   499	rmdir one/three
+   500	ls
+   501	cp three one
+   502	ls
+   503	ls one
+   504	ls
+   505	mv two three/
+   506	ls 
+   507	ls -s
+   508	ls -1
+   509	ls -l1
+   510	ls -l1 one
+   511	mv three four
+   512	ls 
+   513	find three
+   514	find one three
+   515	mv one/two/three one/two/four
+   516	ls one/two/three
+   517	ls one/two
+   518	rm -v one
+   519	rm -r one
+   520	ls 
+   521	rm -r four
+   522	ls
+   523	ls -1l
+   524	cat \
+   525	-\
+   526	n ~/.history >~/first_linux_commands.txt
+   527	cat -n ~/.history >~/first_linux_commands.txt
+   528	cd ~
+   529	ls
+   530	cat first_linux_commands.txt
+   531	mkdir first_dir
+   532	ls
+   533	mkdir first_dir2
+   534	ls
+   535	touch ./first_dir2 text_file.txt
+   536	ls 1l
+   537	ls -1l
+   538	cd first_dir2 ls l
+   539	ls -l
+   540	cd first_dir2
+   541	ls
+   542	ls -l
+   543	cd ..
+   544	rm text_file.txt
+   545	cd first_dir2
+   546	cd ..
+   547	cd first_dir2
+   548	touch text_file.txt
+   549	ls
+   550	chmod g+x,o+w text_file.txt
+   551	ls -l text_file.txt
+   552	mkdir sub1 sub2 text_file
+   553	ls -l
+   554	cp text_file.txt sub1
+   555	ls -l
+   556	ls sub1
+   557	mv text_file.txt sub2
+   558	ls
+   559	mv sub2/text_file.txt sub2/text_file.txt.2
+   560	ls sub2
+   561	mv text_file sub3
+   562	ls -l
+   563	cp -r sub1 sub3
+   564	ls
+   565	ls -l sub3
+   566	ls sub3
+   567	ls sub3/sub1
+   568	mv sub3/sub1/text_file.txt sub3/sub1/text_file.txt.backup
+   569	ls sub3/sub1
+   570	mv sub3/sub1/text_file.txt.backup .text_file.txt.backup
+   571	ls 
+   572	ls -l
+   573	ls -a
+   574	rm sub3
+   575	rm -r sub3
+   576	ls -l
+   577	cd ~
+   578	cat -n~/.history>/first_linux_commands.txt2
+   579	cat -n~/.history>/second_linux_commands.txt
+   580	cat -n~/.history>~/second_linux_commands.txt
+   581	cat -n ~/.history>~/second_linux_commands.txt
+
