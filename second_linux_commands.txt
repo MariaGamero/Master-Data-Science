@@ -579,4 +579,3 @@
    579	cat -n~/.history>/second_linux_commands.txt
    580	cat -n~/.history>~/second_linux_commands.txt
    581	cat -n ~/.history>~/second_linux_commands.txt
-
