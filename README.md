@@ -1,8 +1,7 @@
 # Master-Data-Science
 
-Este es mi primer repositorio
+Repositorio del Master en Data Science
 
-Puedo escribir conmarkdown
+- Shell: esta carpeta contiene las soluciones a los ejercicios de Shell.
 
-]]
-Perimer dia de Master
+- First Steps: esta carpeta contiene pruebas relacionadas con el desarrollo del Master
