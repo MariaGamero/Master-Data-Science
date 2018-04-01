@@ -1,0 +1,347 @@
+whoami
+echo Welcome to master
+cat /etc/os-release
+cat -n /etc/os-release
+cd Data/shell
+cat Text_example.txt
+cd 
+cat Data/shell/Text_example.txt
+cat ./Data/shell/Text_example.txt
+pwd
+cat /home/dsc/Data/shell/Text_example.txt
+cd Desktop
+cat Data/shell/Text_example.txt
+cat /home/dsc/Data/shell/Text_example.txt
+cat ../Data/shell/Text_example.txt
+cd ..
+cd -
+ll
+cd ..
+cd Data/airline_tickets
+cd -
+cat ~/Data/shell/Text_example.txt
+cd 
+cd .ssh
+ll
+cd 
+pwd
+echo texto
+echo pwd
+echo $PWD
+echo ${PWD}
+echo ${PWD}text
+echo $PWDtext
+echo \${PWD}
+ls 
+ls
+cd Data
+cd shell
+ls
+ls -1
+ls ./
+ls ../
+ls
+ls -s
+ls -s1
+ls -s -1
+ls -l
+ll
+type ll
+type ls
+type cd
+alias
+cd
+gedit .zshrc
+ll
+ls -l
+ls -a
+ls -la
+ls -la Videos
+touch empty_file
+ls -l empty_file
+chmod u+x empty_file
+ls -l empty_file
+chmod u-x,g+w,o+w empty_file
+ls -l empty_file
+chmod u-x, g+w, o+w empty_file
+chmod uo-w empty_file
+ls -l empty_file
+chmod a+w empty_file
+ls -l empty_file
+chmod 777 empty_file
+ls -l empty_file
+chmod 727 empty_file
+ls -l empty_file
+ls -l
+ls -la
+ls -lSa
+ls -lSar
+ls -lta
+cat .history
+history
+history -3
+echo $HISTFILE
+mkdir master_dir
+ll
+cd master_dir
+cd 
+cd ..
+ll 
+pwd
+cd
+pwd
+cd /
+mkdir test
+cd home
+mkdir test
+cd
+cd master_dir
+mkdir one/two/three
+mkdir -p one/two/three
+ll
+ls one
+ls one/two
+mkdir two three four
+ll
+touch fito.txt
+ll
+cp fito.txt fito_copy.txt
+ll
+cp fito.txt one/fito_copy.txt
+cp fito.txt two/
+cp one one_copy
+cp -r one one_copy
+chmod 777 fito.txt
+ll
+cp fito.txt fito_copy2.txt
+ll
+cp -p fito.txt fito_copy3.txt
+ll
+mv four five
+ll
+mv fito.txt fito_new
+ll
+type rename
+rm fito_copy.txt fito_new
+rm five
+rm -r five
+ls one
+rm -r one
+ll
+type rm
+touch .a
+rm .a
+git init test
+cd test
+rm -r .git
+cd ..
+mkdir first_dir
+cd first_dir
+touch text_file.txt
+ll
+chmod g+x,o+w text_file.txt
+ll
+mkdir sub1 sub2 text_file
+ll
+cp -p text_file.txt sub1
+mv text_file.txt sub2
+mv text_file.txt sub2/text_file.txt.2
+cd sub2
+mv text_file.txt text_file.txt.2
+ll
+cd ..
+cp -r sub1 sub3
+history -10
+history -20
+mv sub3/text_file.txt sub3/text_file.txt.backup
+mv sub3/text_file.txt.backup ./.text_file.txt.backup
+ll
+ll -
+ll -a
+rm -rf sub3
+ll -a
+cp -r sub1 sub3
+ll
+rm -rf sub3
+ll
+cp -r sub1 sub2/
+cd sub2
+ll
+cd
+man 
+man cp
+man man 
+cat --help
+cat /?
+cp /?
+cd Data/shell
+ll
+cat Finn.txt
+less Finn.txt
+less -N Finn.txt
+less -N Finn.txt\
+less -N Finn.txt
+less Finn.txt
+man -N man
+man  man
+less Finn.txt
+man -N man
+less -N Finn.txt
+which tree
+man tree
+whereis tree
+which tree
+which ls
+whereis ls
+whereis tree
+which python
+where is python
+whereis python
+sudo which python
+which python
+fdgkjfdhgkjdfh
+bash
+kjhk
+man cp
+cd
+echo "Hello" > hello-world
+ll hello-world
+cat hello-world
+echo "Hello again" > hello-world
+cat hello-world
+echo "Hello again again" >> hello-world
+cat hello-world
+wc hello-world
+wc < hello-world
+cat hello-world
+cat hello-world | wc 
+cat hello-world | wc| wc
+echo "My home dir is ${HOME}"
+echo 'My home dir is ${HOME}' 
+echo My home dir is ${HOME} 
+dat
+date
+echo "date"
+echo 'date'
+echo `date`
+echo "$(date)"
+echo '$(date)'
+cd Data/shell
+head Finn.txt
+tail Finn.txt
+head -n 3 Finn.txt
+head 3 Finn.txt
+head -3 Finn.txt
+cat -N Finn.txt| head -5
+cat -n Finn.txt| head -5
+man head
+cat -n Finn.txt|head -n -400
+cat -n ./Text_example.txt | head -n -3
+cat -n ./Text_example.txt 
+cat -n ./Text_example.txt | head -n -3
+cat -n ./Text_example.txt | head -n -1
+cat -n ./Text_example.txt | head -1
+cat -n ./Text_example.txt | tail -n 5
+cat -n ./Text_example.txt | tail -n -5
+cat -n ./Text_example.txt | tail -n +5
+cat -n ./Text_example.txt | head -n -2
+cat -n ./Text_example.txt | tail -n +2
+cd
+ll
+cd Data/us_dot
+ll
+cd traffic
+ll
+cd ..
+ls otp
+cd otp
+pwd
+ll
+ls -S 
+ls 
+ls -l
+ls -lS
+ls -S
+ls -lS 
+ls -lS | head -n 4
+ls -lS | head -n 4 | tail -n -3
+ls -lS | head -n 4 | tail -n -3 > three_largest_file.txt
+ls -lS | head -n 4 | tail -n +2
+history 
+history -20
+history -20 > fichero.hist
+cd
+cat .history| tail -n -20 
+cd -
+cd ../../shell
+ll
+head -n -3 Text_example.txt
+head -n 3 Text_example.txt
+cat -n Text_example.txt| tail -n +3 
+cat -n Text_example.txt| tail -n +3 | head -n -3
+cd ../opentraveldata
+wc optd_aircraft.csv
+wc -l optd_aircraft.csv
+cd -
+head -n 5 Finn.txt| wc 
+head -n 5 Finn.txt| wc  -w 
+cd 
+find . -name "text_file*"
+find -name "text_file*"
+find ./first_dir -name "text_file*"
+find ./first_dir -name "tExt_file*"
+find ./first_dir -name -i "tExt_file*"
+find ./first_dir -iname "tExt_file*"
+find ./first_dir -type d -iname "tExt_file*"
+find ./first_dir -type f -iname "tExt_file*"
+find -type f -iname "tExt_file*"
+find -maxdepth 5 -type f -iname "tExt_file*"
+find -maxdepth 5 -mindepth 3 -type f -iname "tExt_file*"
+find -maxdepth 5 -mindepth 4 -type f -iname "tExt_file*"
+find -perm 777 -type f -iname "tExt_file*"
+find ! -perm 777 -type f -iname "tExt_file*"
+find . ! -perm 777 -type f -iname "tExt_file*"
+find ! -perm 777 -type f -iname "tExt_file*" .
+find -empty
+find -empty  | wc 
+find ./Data -size +10M
+find ./Data -size 10M
+find . -mmin -60
+find . -mmin 60
+find ./Data -size 10M 
+find ./Data -size +10M 
+find ./Data -size +10M | cat
+find ./Data -size +10M -exec ls -l {} \; 
+find ./Data -size +10M -exec ls -l {}\; 
+echo this is; echo econd part
+echo this is; echo second part
+echo this is echo second part
+find ./Data -size +10M -exec ls -l {} ; 
+echo ${PWD}
+echo /${PWD}
+echo \${PWD}
+find ./Data -size +10M -exec ls -l {}\+ 
+find ./Data -size +10M -exec ls -l {} \+
+find ./Data -size +10M -exec ls -l {} \;
+find ./Data -size +10M | wc
+find ./Data -size +10M -exec ls -l \;
+find ./Data -size +10M
+find ./Data -size +10M -exec echo YESS \;
+find ./Data -size +10M -exec echo YESS \; -exec echo NOOOOO \;
+find ./Data -size +10M -exec ls -l {} | wc \;
+find ./Data -size +10M -exec sh -c "ls -l {} | wc" \;
+find ./Data -size +10M -ok ls -l {} | wc \;
+find ./Data -size +10M -ok ls -l {} \;
+find -mindepth 2 -type f -mmin -60
+find -type f -empty ! -perm 777 
+find -type f -empty ! -perm 777 | wc
+find -type f -empty ! -perm 777  -ok cmhod 777 {} \;
+find ~/Data -maxdepth 1 -mindepth 1 
+find ~/Data -maxdepth 1 -mindepth 1 -type d
+find ~/Data -maxdepth 1 -mindepth 1 -type d - exec sh -c "ls -S" \;
+find ~/Data -maxdepth 1 -mindepth 1 -type d - exec sh -c "ls -S {} \;"
+find ~/Data -maxdepth 1 -mindepth 1 -type d -exec sh -c "ls -S {}" \;
+find ~/Data -maxdepth 1 -mindepth 1 -type d -exec sh -c "ls -S {} | head -n 3" \;
+find ~/Data -maxdepth 1 -mindepth 1 -type d -exec echo {} \; -exec sh -c "ls -S {} | head -n 3" \;
+find ~/Data -maxdepth 1 -mindepth 1 -type d -exec echo Directorio: {} \; -exec sh -c "ls -S {} | head -n 3" \;
+cat .history > 2018-17-03.CL.txt
