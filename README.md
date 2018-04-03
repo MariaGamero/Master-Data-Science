@@ -1,7 +1,9 @@
 # Master-Data-Science
 
-Repositorio del Master en Data Science
+Master Data Science repository:
 
-- Shell: esta carpeta contiene las soluciones a los ejercicios de Shell.
+- Shell: contains the solutions of the shell exercises (with and without csvkit)
 
-- First Steps: esta carpeta contiene pruebas relacionadas con el desarrollo del Master
+- First Steps: contains test and draft files
+
+- SQL: contains the solutions of the sql exercises
