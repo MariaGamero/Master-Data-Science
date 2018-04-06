@@ -1,6 +1,7 @@
-#!\bin\bash
+#!/bin/bash
 
 ## step1_Create database from shell
+
 #createdb db_exercise_opentraveldata
 
 ## step2_Import tables from ~/Data/opentraveldata
