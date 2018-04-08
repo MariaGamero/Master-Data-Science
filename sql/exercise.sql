@@ -14,10 +14,10 @@
 #\copy ref_airline_nb_of_flights from '~/Data/opentraveldata/ref_airline_nb_of_flights.csv' delimiter '^' csv header
 #\copy ref_airline_nb_of_flights from '~/Data/opentraveldata/ref_airline_nb_of_flights.csv' delimiter '^' csv header
 
-#step4_query:
+#step4_query(@ postgres):
 
-select * from ref_airline_nb_of_flights as l 
-left outer join (select "2char_code",name as airline_name from optd_airlines group by "2char_code",name) as r 
+select l.*,r.name from ref_airline_nb_of_flights as l 
+left outer join optd_airlines as r 
 on l.airline_code_2c=r."2char_code";
 
 
