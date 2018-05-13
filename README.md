@@ -8,4 +8,7 @@
 
 - *SQL*: contains the solutions of the sql exercises
 
-- *Python*: folder that includes python exercises
+- *Python*: folder that includes some python exercises
+
+- *R*: folder that includes R exercises
+
