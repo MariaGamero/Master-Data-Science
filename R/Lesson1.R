@@ -129,7 +129,5 @@ aggregate(DesviacionFare~Sex+Pclass,titanic,min)
 
 ## 11. Mira la ayuda de xtabs y presenta los mÃ?nimos de otra manera con
 # esta funciÃ³n 
-(WIP)
 
-
-#útil http://www.dma.ulpgc.es/profesores/personal/stat/cursoR4ULPGC/index.html
+xtabs(DesviacionFare~Sex+Pclass,aggregate(DesviacionFare~Sex+Pclass,titanic,max))
