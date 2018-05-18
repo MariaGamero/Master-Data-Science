@@ -71,7 +71,8 @@ titanic[titanic$Pclass==1,c("Age","Sex")]
 ## 7.Calcula la mÃ¡scara para seleccionar los supervivientes
 ## de tercera clase o los hombres de primera que fallecieron
 
-titanic[titanic$Survived==1 & titanic$Pclass==3 | titanic$Survived==0 & titanic$Pclass==1,]
+(titanic$Pclass == 3 & titanic$Survived) |
+  (titanic$Pclass == 1 & titanic$Sex == "male" & !titanic$Survived)
 
 ## 8.Correlacion entre edad y fare para cada sexo
 
