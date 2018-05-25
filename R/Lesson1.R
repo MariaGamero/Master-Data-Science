@@ -1,5 +1,5 @@
 #leer los datos
-titanic <- read.csv("train.csv")
+titanic <- read.csv("DataR/train.csv")
 
 #EJERCICIOS R
 
