@@ -11,7 +11,7 @@ library("data.table")
 library("tidyr")
 
 
-agenda <- fread("data/agendaMadrid/2007.csv")
+agenda <- fread("dataR/agendaMadrid/2007.csv")
 class(agenda)
 
 agenda %>% 
