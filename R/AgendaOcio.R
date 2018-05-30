@@ -43,9 +43,9 @@ library(ggplot2)
 spread(agendaOcioMad_SinOutliers)
 table(agendaOcioMad_SinOutliers$HorasImpartidas)
 
+#vamos a hacer tranchas para las horas:
 gr.horas=cut(agendaOcioMad_SinOutliers$HorasImpartidas,breaks=seq(0,60,10))
 
-
-qplot(TotalCursos,gr.horas,data=agendaOcioMad_SinOutliers,color=DISTRITO,geom=c("point","smooth"),
-      xlab="Número de Cursos")
+agendaOcioMad_SinOutliers<-as.tibble(agendaOcioMad_SinOutliers) %>% mutate(media=mean(Duracion))
+qplot(gr.horas,reorder(DISTRITO, media),data=agendaOcioMad_SinOutliers, geom=c("point","smooth"),xlab="Horas",ylab="Distrito")
   
