@@ -19,7 +19,7 @@ sevilleMap <- ggmap(get_map(seville, zoom=10,color = "bw"))
 sevilleMap
 
 #Cargamos la BD y filtramos por provincia de Sevilla (esto no hace falta)
-carburantes<- read.csv2("data/carburantes.csv")
+carburantes<- read.csv2("RData/carburantes.csv")
 carburantesSevilla<- carburantes %>% filter(Provincia %in% c("SEVILLA") &!is.na(Precio.Gasoleo.A) & !is.na(Precio.Gasolina.95.ProtecciÃ³n))
 
 #Plot
