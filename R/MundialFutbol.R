@@ -84,6 +84,14 @@ head(datosMundial)
 ######################################################################
 #Visualitation
 ######################################################################
+#gráfico 1
+datosMundial %>% 
+  filter(Ganados!= 0) %>% 
+  ggplot(aes(x=Equipo,y=Partic.,color=Equipo,size=Ganados))+geom_point()+
+  labs(x="Equipo", y="Participaciones")+ ggtitle("Detalle de mundiales por país")
+
+
+#gráfico 2
 ggplot(data=datosMundial,aes(x=Pts.,y=reorder(Equipo,Pts.),color=Pts.))+
   geom_point()+labs(x="Total puntos", y="Equipo")+
   ggtitle("Clasificación total puntos obtenidos en los mundiales 1973-2004")
