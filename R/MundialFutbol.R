@@ -84,8 +84,9 @@ head(datosMundial)
 ######################################################################
 #Visualitation
 ######################################################################
-datos %>% 
-
+ggplot(data=datosMundial,aes(x=Pts.,y=reorder(Equipo,Pts.),color=Pts.))+
+  geom_point()+labs(x="Total puntos", y="Equipo")+
+  ggtitle("Clasificación total puntos obtenidos en los mundiales 1973-2004")
 
 
 
