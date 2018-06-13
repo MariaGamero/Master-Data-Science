@@ -12,6 +12,8 @@ require(tidyverse)
 #data loading
 ######################################################################
 
+mundiales <- read_html("https://es.fifa.com/fifa-tournaments/statistics-and-records/worldcup/teams/index.html")
+
 
 #tabla1.- Clasificacion
 clasificacion <- mundiales %>% html_nodes("table") %>% .[[2]] %>% html_table()
