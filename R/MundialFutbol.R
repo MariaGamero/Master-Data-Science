@@ -92,7 +92,7 @@ tarjetas <- datosMundial %>%
   group_by(Equipo) %>% 
   arrange(Equipo) %>%
   ggplot(aes(x=clase,y=NumeroTarjetas,color=clase),size=3,alpha=.2,label=NumeroTarjetas)+
-  geom_point(stat="identity")+facet_wrap(~Equipo)+labs(x="Tipo de Tarjeta")+
+  geom_point(stat="identity")+facet_wrap(~Equipo)+labs(x="Tipo de Tarjeta",y= "Número de Tarjetas")+
   labs(title="Detalle del total tarjetas  por país",
        subtitle="Mundiales 1973-2004", 
        x="Tipo de Tarjeta")+ 
@@ -102,8 +102,7 @@ tarjetas <- datosMundial %>%
                                    size = 6,      # Reduzco el tamaño a 6 puntos 
                                    color="blue"))+ #Cambio el color del texto a azul 
   theme(axis.text.y = element_text(size = 6,      
-                                   color="blue")) 
-
+                                   color="blue"))
 
 
 #gráfico 2
