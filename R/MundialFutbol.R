@@ -7,6 +7,7 @@
 require(rvest)
 require (xml2)
 require(tidyverse)
+require(dplyr)
 
 ######################################################################
 #data loading
