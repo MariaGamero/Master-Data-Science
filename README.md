@@ -12,4 +12,4 @@
 
 - *R*: folder that includes R exercises
 
-- *NPL*: folder that includes some NPL analysis and exercises
+- *NLP*: folder that includes some NPL analysis and exercises
