@@ -12,4 +12,4 @@
 
 - *R*: folder that includes R exercises
 
-- *NLP*: folder that includes some NPL analysis and exercises
+- *NLP*: folder that includes some Natural Languaje Processing with Python exercises
