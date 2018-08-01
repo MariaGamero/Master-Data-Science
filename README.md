@@ -13,3 +13,7 @@
 - *R*: folder that includes R exercises
 
 - *NLP*: folder that includes some Natural Languaje Processing with Python exercises
+
+# Case studies and data analysis:
+
+- *HR Analysis: Why People Really Quit Their Jobs?
