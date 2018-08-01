@@ -16,4 +16,4 @@
 
 # Case studies and data analysis:
 
-- *HR Analysis: Why People Really Quit Their Jobs?
+- *HR Analysis: Why People Really Quit Their Jobs?*
