@@ -3,11 +3,7 @@
 <<<<<<< HEAD
 =======
 
-## Why People Really Quit Their Jobs?
->>>>>>> 7ca7c0fd0560ca0a0945529aea84355785795696
-
-
-## Brief description of columns in Data set
+## Brief description of columns in DataSet:
 
 - **Satisfaction_level** :Employee satisfaction level
 
@@ -30,8 +26,5 @@
 
 - **Whether the employee has left**: 1 yes, 0 no
 
-=======
-**Whether the employee has left**: 1 yes, 0 no
-=======
->>>>>>> 7ca7c0fd0560ca0a0945529aea84355785795696
+
 
