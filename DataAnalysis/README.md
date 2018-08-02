@@ -1,13 +1,11 @@
 # *HR Analysis: Why People Really Quit Their Jobs?*
 
-<<<<<<< HEAD
 =======
 
 ## Brief description of columns in DataSet:
 
 - **Satisfaction_level** :Employee satisfaction level
 
-<<<<<<< HEAD
 - **Last_evaluation**: column can be used to evaluate the performance of an employee. The data ranges from 0–1, 0 being low performance and 1 being the highest. Using a 0.1 interval let us try and see the employees in the company are doing and how it is correlated to them leaving the company.
 
 - **Number of projects**: 
